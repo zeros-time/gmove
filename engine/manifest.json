@@ -1,0 +1,28 @@
+{
+  "engine": "Stockfish 19 full multithreaded WASM",
+  "version": "19.0.0",
+  "package": "stockfish",
+  "packageVersion": "19.0.0",
+  "license": "GPL-3.0",
+  "source": "https://github.com/nmrugg/stockfish.js",
+  "sourceFiles": [
+    "stockfish-19.js",
+    "stockfish-19.wasm"
+  ],
+  "deployedFiles": [
+    "stockfish.js",
+    "stockfish.wasm"
+  ],
+  "variantPolicy": "Threaded full engine only; no Lite or single-thread fallback.",
+  "sha256": {
+    "stockfish.js": "04ee3996cb9848bf7ed7ae288552fc5f51cfb1c6d3c7f6aa1e6da369e6473746",
+    "stockfish.wasm": "e0ef90031a310479e5b0c3692a9839118ed785535c306252e68ed3300a45b02d"
+  },
+  "byteSizes": {
+    "stockfish.js": 32718,
+    "stockfish.wasm": 99065439
+  },
+  "sourceSha256": {
+    "stockfish.js": "227b9317cb8fc347da722b3f6694c5f57eafe17842a8a1afbfe08c3aeeae5671"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "format": "gmove-opening-tree-index",
+  "version": 1,
+  "entries": [
+    {
+      "id": "Nf3:white:12",
+      "openingName": "Nf3",
+      "trainedSide": "white",
+      "fullMoveDepth": 12,
+      "depthPlies": 24,
+      "file": "Nf3_openings_white_12_moves.json",
+      "sourceDigest": "e850d27ae9074c2679a229e281c5851d3d2aaad7ce5cc7973ce846395771a324",
+      "sources": [
+        {
+          "file": "games/Nf3_white_openings_12_moves.pgn",
+          "sha256": "f6b4c95766f7160b0ec59d94d7ba9c7ca6dc1e89bcedee6ee171812899e90111",
+          "bytes": 420315,
+          "gameCount": 662
+        }
+      ],
+      "summary": {
+        "gameCount": 662,
+        "wins": 662,
+        "draws": 0,
+        "losses": 0,
+        "unknownResults": 0,
+        "positions": 9746,
+        "edges": 9995,
+        "topOpeningNames": [
+          {
+            "name": "Slav Defense (transposition)",
+            "games": 121
+          },
+          {
+            "name": "Queen's Gambit Declined (transposition)",
+            "games": 114
+          },
+          {
+            "name": "King's Indian Defense (transposition)",
+            "games": 83
+          },
+          {
+            "name": "King's Indian Attack",
+            "games": 63
+          },
+          {
+            "name": "Réti Opening: Kingside Fianchetto with c4",
+            "games": 51
+          },
+          {
+            "name": "Sicilian Defense (transposition)",
+            "games": 36
+          },
+          {
+            "name": "Nimzowitsch-Larsen Attack (via Réti)",
+            "games": 32
+          },
+          {
+            "name": "Réti Opening: Double Fianchetto",
+            "games": 32
+          },
+          {
+            "name": "King's Indian Setup",
+            "games": 24
+          },
+          {
+            "name": "Queen's Indian Defense (transposition)",
+            "games": 16
+          }
+        ],
+        "earliestGameDate": "1992-12-28",
+        "latestGameDate": "2026-07-05",
+        "averageElo": 2642
+      }
+    }
+  ]
+}
